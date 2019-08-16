@@ -51,23 +51,31 @@ recognition.onresult = function(event) {
           brake;
 
           case 'mail':
-          document.location.assign('https://gmail.com');
+          window.open("https://gmail.com", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
           break;
 
           case 'Mail':
-          document.location.assign('https://gmail.com');
+          window.open("https://gmail.com", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
           break;
 
           case 'Facebook':
-          document.location.assign('https://facebook.com');
+          window.open("https://facebook.com", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
           break;
 
           case 'facebook':
-          document.location.assign('https://facebook.com');
+          window.open("https://facebook.com", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
           break;
 
           case 'One':
           document.location.assign('https://www.youtube.com/watch?v=uOUyB1kqPrc');
+          break;
+
+          case 'Crunchy Roll':
+          window.open("https://www.crunchyroll.com/", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+          break;
+
+          case 'News':
+          document.getElementsByTagName("iframe")[0].setAttribute("src", "https://www.endi.com/"); 
           break;
 
           
@@ -78,11 +86,7 @@ recognition.onresult = function(event) {
 
 
 
-
-
-
-
-      }
+    }
 
       
 };
@@ -92,6 +96,7 @@ function but(){
     recognition.start();
     
 }
+
 
 
 
