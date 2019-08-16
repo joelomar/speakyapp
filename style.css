@@ -1,11 +1,18 @@
-body {
-  background-color: #fce1f5;
-
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 h1 {
-
+  font-family: arial;
   color: #fa236e;
+
+
+}
+
+body {
+  background-color: #000;
 
 }
 
@@ -24,16 +31,26 @@ h1 {
 
 }
 
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-
-.flex-container {
+.container {
   display: flex;
   justify-content: center;
   
 }
+
+.frame-container {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  
+}
+
 
 
